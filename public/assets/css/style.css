@@ -1,0 +1,33 @@
+:root {
+    --vert-reiki: #6BAF92;
+    --orange-reiki: #E97B4D;
+    --bg-light: #fdfdfd;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: var(--bg-light);
+    color: #333;
+}
+header, footer {
+    padding: 1rem;
+    background: var(--vert-reiki);
+    color: white;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+a.btn {
+    background: var(--orange-reiki);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+}
+main { padding: 2rem; }
+.hero { text-align: center; margin-top: 2rem; }
+form { max-width: 400px; margin: auto; display: flex; flex-direction: column; }
+form input, form textarea { margin-bottom: 1rem; padding: 0.5rem; }

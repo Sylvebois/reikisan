@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /
+
+# Rediriger les URL propres
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ $1.php [L]
+
+# Protéger fichiers sensibles
+<FilesMatch "\.(env|htaccess|git|md)$">
+    Require all denied
+</FilesMatch>
