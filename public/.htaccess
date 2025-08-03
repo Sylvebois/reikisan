@@ -7,6 +7,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ $1.php [L]
 
 # Protéger fichiers sensibles
-<FilesMatch "\.(env|htaccess|git|md)$">
+<FilesMatch "\.(env|gitignore|htaccess|md|lock|json)$">
     Require all denied
 </FilesMatch>
