@@ -8,7 +8,7 @@ require_once __DIR__ . '/../includes/config.php';
 
 <main>
     <h1>Contactez-moi</h1>
-    <form action="/../includes/send.php" method="POST">
+    <form action="/includes/send.php" method="POST">
         <input type="text" name="name" placeholder="Votre nom" required>
         <input type="email" name="email" placeholder="Votre email" required>
         <textarea name="message" placeholder="Votre message" required></textarea>
