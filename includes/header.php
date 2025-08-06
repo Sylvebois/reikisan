@@ -28,7 +28,8 @@ $description = $description ?? "Retrouvez équilibre et sérénité grâce aux s
     <img src="/assets/img/logo.png" alt="ReikiSan" style="height:60px;">
     <nav>
         <a href="/">Accueil</a>
-        <a href="/soins">Soins</a>
+        <a href="/reiki">Le Reiki</a>
+        <a href="/soins">Les Soins</a>
         <a href="/about">À propos</a>
         <a href="/contact">Contact</a>
     </nav>
