@@ -37,7 +37,7 @@ $description = $description ?? "Retrouvez équilibre et sérénité grâce aux s
             <a href="/contact">Contact</a>
         </nav>
         <button id="menu-toggle" aria-label="Toggle navigation">
-            <img src="/public/assets/img/icons/hamburger-menu.svg" alt="Menu Icon">
+            <img src="/assets/img/icons/hamburger-menu.svg" alt="Menu Icon">
         </button>
         <nav id="mobile-nav" class="hidden">
             <ul>
