@@ -42,6 +42,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     catch (Exception $e) {
         echo "Erreur lors de l'envoi : {$mail->ErrorInfo}";
         header("Location: http://reikisan.be/contact?success=-1");
-        exit("Failure")
+        exit("Failure");
     }
 }
