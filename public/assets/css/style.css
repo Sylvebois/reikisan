@@ -23,9 +23,8 @@ footer {
   text-align: center;
 }
 
-footer {
-  position: relative;
-  bottom: 0;
+footer p {
+  padding: 1rem 0;
 }
 
 section {
@@ -62,9 +61,10 @@ nav a {
 }
 
 a.btn {
+  max-width: 50vw;
   background: var(--orange-reiki);
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 1rem;
   border-radius: 4px;
   text-decoration: none;
 }
@@ -88,7 +88,7 @@ main {
 
 .img-onpage {
   display: inline-block;
-  margin: 0 auto;
+  margin: 1rem auto;
   vertical-align: top;
   max-width: 15vw;
   height: auto;
