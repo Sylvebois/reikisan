@@ -28,6 +28,10 @@ footer {
   bottom: 0;
 }
 
+section {
+  text-align: left;
+}
+
 #logo {
   height: 100px;
   display: inline-block;
@@ -72,6 +76,22 @@ main {
 .hero {
   text-align: center;
   margin-top: 2rem;
+}
+
+.text-container {
+  display: inline-block;
+  max-width: 75vw;
+  margin: 0;
+  padding: 0 0.5rem;
+  text-align: justify;
+}
+
+.img-onpage {
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: top;
+  max-width: 15vw;
+  height: auto;
 }
 
 form {
@@ -138,6 +158,7 @@ form textarea {
 }
 
 @media screen and (max-width: 600px) {
+
   header,
   footer {
     padding: 0.2rem;
@@ -197,5 +218,14 @@ form textarea {
 
   #mobile-nav li {
     margin: 0.5rem 0 0 0.5rem;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  .img-onpage {
+    max-width: 80vw;
+    height: auto;
   }
 }
