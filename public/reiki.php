@@ -7,7 +7,7 @@ require_once __DIR__ . '/../includes/header.php';
 <main>
         <h1>Qu'est-ce que le Reiki ?</h1>
     <section>
-      <img src="/public/assets/img/reiki_japonais.svg" alt="Reiki en japonais" width="100px" height="200px" class="img-onpage">
+      <img src="/assets/img/reiki_japonais.svg" alt="Reiki en japonais" width="100px" height="200px" class="img-onpage">
       <div class="text-container">
         <h2>Origine et définition</h2>
         <p>Le Reiki est une méthode de soins japonaise appartenant à l’approche énergétique, une technique de relaxation
@@ -40,7 +40,7 @@ require_once __DIR__ . '/../includes/header.php';
           <li>...</li>
         </ul>
       </div>
-      <img src="/public/assets/img/soins.jpg" alt="Séance de soins Reiki" class="img-onpage">
+      <img src="/assets/img/soins.jpg" alt="Séance de soins Reiki" class="img-onpage">
     </section>
       <p style="text-align: justify;">Le Reiki représente également un outil de développement personnel et spirituel. Il n’implique pas de dogme ou
         de croyances quelconques; <strong>il ne remplace pas la médecine classique mais le Reiki lui est complémentaire</strong> pour un bien-être naturel et durable.</p>

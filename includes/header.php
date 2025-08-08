@@ -28,7 +28,7 @@ $description = $description ?? "Retrouvez équilibre et sérénité grâce aux s
 
 <body>
   <header>
-    <a href="/"><img src="/public/assets/img/logo.png" alt="ReikiSan" id="logo"></a>
+    <a href="/"><img src="/assets/img/logo.png" alt="ReikiSan" id="logo"></a>
     <nav id="desktop-nav">
       <a href="/">Accueil</a>
       <a href="/reiki">Le Reiki</a>
@@ -37,8 +37,8 @@ $description = $description ?? "Retrouvez équilibre et sérénité grâce aux s
       <a href="/contact">Contact</a>
     </nav>
     <button id="toggle-menu" aria-label="Ouvrir et fermer le menu">
-      <img src="/public/assets/img/icons/hamburger-menu.svg" alt="Ouvrir le menu">
-      <img src="/public/assets/img/icons/close-menu.svg" alt="Fermer le menu" class="hidden">
+      <img src="/assets/img/icons/hamburger-menu.svg" alt="Ouvrir le menu">
+      <img src="/assets/img/icons/close-menu.svg" alt="Fermer le menu" class="hidden">
     </button>
     <nav id="mobile-nav" class="hidden-menu">
       <ul>
