@@ -5,7 +5,7 @@
 }
 
 .hidden {
- display: none;
+  display: none;
 }
 
 body {
@@ -35,12 +35,16 @@ footer {
   margin-right: 1rem;
 }
 
-#menu-toggle {
+#toggle-menu {
   display: none;
 }
 
 #desktop-nav {
   display: inline-block;
+}
+
+#mobile-nav {
+  display: none;
 }
 
 nav a {
@@ -142,7 +146,7 @@ form textarea {
   header {
     text-align: left;
   }
-  
+
   #logo {
     height: 60px;
   }
@@ -151,7 +155,7 @@ form textarea {
     display: none;
   }
 
-  #menu-toggle {
+  #toggle-menu {
     display: block;
     background: var(--orange-reiki);
     color: white;
@@ -163,16 +167,29 @@ form textarea {
     padding: 0.5rem;
   }
 
-  #menu-toggle img {
+  #toggle-menu img {
     height: 20px;
     width: 20px;
   }
 
   #mobile-nav {
-    text-align: right;
-    z-index: 1000;
+    display: block;
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    width: 40vw;
+    background-color: var(--vert-reiki);
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0);
+    padding-bottom: 1rem;
+    border-bottom-left-radius: 25px;
   }
-  #mobile-nav ul{
+
+  #mobile-nav.hidden-menu {
+    transform: translateX(15rem);
+  }
+
+  #mobile-nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
